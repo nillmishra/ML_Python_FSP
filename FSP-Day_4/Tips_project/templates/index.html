@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Resturant tip prediction
+</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+body{
+    background-color:#77ff77;               
+}
+.label{
+    font-size: 20px;
+}
+.field{
+    font-size: 20px;
+    width:50%
+}
+        .subfield{ 
+            font-size:15px;
+            color:#FF0060;
+        }
+div{
+    padding:10px;
+    margin-top:10px;
+    margin-left:32%;
+}
+h1{
+    color:#1F6E8C;
+    text-align:center;
+    margin-top:50px;
+    font-size:40px;
+}
+#button{
+    background-color:#1F6E8C;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:20px;
+    border-radius:5px;
+    color:white;
+    margin-left:20%;
+}
+    </style>
+    <body>
+        <form action="{{url_for("get_value")}}" method="POST">
+         
+    <h1>Resturant Tips Pridiction</h1>
+    <br>
+<div>
+    <label for="tb" class='label'><b>Total Bill: </b></label>
+    <br>
+    <input type="text" class="field" placeholder="eg.10 to 50 " name="tb" id="bill" required>
+    <br>
+    <label class='subfield'>total_bill value : any value</label>
+<br>
+    <br>
+    
+    <label for="sex" class='label'><b>sex</b></label>
+    <br>
+    <input type="text" class="field" placeholder="eg. 0-1" name="sex" id="sex" required>
+    <br>
+    <label class='subfield'>sex Value : Male:1 and Female: 0 </label>
+    
+<br>
+    <br>
+    
+    <label for="smoker" class='label'><b>Smoker : </b></label>
+    <br>
+    <input type="text" class="field" placeholder="eg. 0-1" name="smoker" id="smoker" required>
+    <br>
+    <label class='subfield'>for smoking 1 for yes and 0 for no..!</label>
+    
+<br>
+    <br>
+    
+    <label for="day" class='label'><b>day</b></label>
+    <br>
+    <input type="text" class="field" placeholder="eg. 0-3" name="day" id="day" required>
+    <br>
+    <label class='subfield'>day value:sat:1, sun:2, Thur:3, Fri:0 </label>
+    
+<br>
+    
+<br>
+    <br>
+    
+    <label for="time" class='label'><b>time</b></label>
+    <br>
+    <input type="text" class="field" placeholder="eg. 0-1" name="time" id="time" required>
+    <br>
+    <label class='subfield'>Food Time: for lunch :1 dinner:0 </label>
+    
+<br>
+    
+<br>
+    <br>
+    
+    <label for="size" class='label'><b>Size</b></label>
+    <br>
+    <input type="text" class="field" placeholder="eg. 0-6" name="size" id="size" required>
+    <br>
+    <label class='subfield'>Size range: 0-6 </label>
+    
+<br>
+    
+    <br>
+    <br>
+    <button type="submit" id="button">Submit</button> 
+</div>  
+</form>
+
+    </body>
+</html>
