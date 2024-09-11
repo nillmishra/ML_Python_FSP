@@ -1,0 +1,3 @@
+1) Filling of the null of age
+2) Dropping of the null value of the age
+3) Scaling of the age and fare

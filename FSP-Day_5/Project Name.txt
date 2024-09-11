@@ -1,0 +1,11 @@
+Project Name
+1) water quality
+2) Diabetes prediction
+3) Breast Cancer
+4) Boston house price prediction
+5) California house prediction
+6) Wine Quality Prediction
+7) Tesla stoke price prediction
+8) Restaurant Tip prediction
+9) Second Hand car price prediction
+10) Clustering prediction of x and y random data
