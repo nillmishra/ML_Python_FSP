@@ -1,0 +1,32 @@
+What is Machine Learning?
+Machine  Learning (ML) is a subset of AI that aloe machine to learn and improves their performance based on data
+
+A Computer program is said to learn from Experience E with respect to some Task T and some performance measure P, it its performance on T as measured by P improves with Experience E.
+				(Tom Mitchell)
+
+
+Why machine Learning?
+Refer Paint.
+
+
+What are different types of machine learning?
+1) Supervised Learning
+2)Unsupervised Learning 
+4)Semi- Supervised Learning
+5)Reinforcement
+
+1) Supervised Machine Learning Algorithm :-
+:- Linear Regression
+:- Logistic Regression
+:- Polynomial Regression
+:- Lasso Regression
+:- Ridge Regression
+
+2) Unsupervised Machine Learning Algorithm:-
+
+:- clustering
+:- Dimensionality reduction
+:- Association rule
+:- Anomaly Detection
+
+Reward and punishment are Reinforcement pairs!!
